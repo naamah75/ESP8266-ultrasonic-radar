@@ -1,0 +1,26 @@
+# Arduino / build artifacts
+*.bin
+*.hex
+*.elf
+*.map
+*.d
+*.o
+*.obj
+*.lst
+
+# Arduino IDE temp
+*.ino~
+*.pde~
+*.cpp~
+*.h~
+*.bak
+*.tmp
+
+# Secrets (do not commit)
+secrets.h
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
